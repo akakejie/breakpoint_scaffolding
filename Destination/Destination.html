@@ -24,21 +24,27 @@
         </nav>
     </header>
 
-    <!-- Destination Content -->
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <h1>Welcome to My Destination Page</h1>
+        <p>Explore some of the most beautiful and exciting places around the world that I dream of visiting. Click on the map below to learn more about each destination!</p>
+    </section>
+
+    <!-- Destination Map -->
     <div class="destination-container">
-        <img src="destination.jpg" alt="Destination Map" usemap="#destination-map" class="destination-image">
-        <main class="main-content">
-            <div class="content-wrapper">
-              <div class="feature-card">
-                <img
-                  src="../IMAGES/ImageMap.png" alt="Dream Places to visit" title="Places" class="feature-image"
+        <img 
+            src="destination.jpg" 
+            alt="Dream Places to Visit" 
+            usemap="#ImageMap" 
+            class="destination-image"/>
 
-                  usemap="#ImageMap" width="2000" height="1600" />
-
-                  <map name="ImageMap">
-                    <area shape="poly" coords="156, 160, 453, 159, 605, 416,459, 670, 155, 670, 8, 418" href= "Japan.html" />
-
-    
+        <map name="ImageMap">
+            <area shape="poly" coords="75, 76, 218, 75, 287, 198, 216, 321, 74, 321, 4, 198" href="Japan.html" alt="Japan" title="Japan">
+            <area shape="circle" coords="826, 229, 122" href="Switzerland.html" alt="Switzerland" title="Switzerland">
+            <area shape="rect" coords="14, 427, 300, 611" href="NewYork.html" alt="New York" title="New York">
+            <area shape="circle" coords="490, 482, 122" href="Bali.html" alt="Bali" title="Bali">
+            <area shape="rect" coords="658, 427, 944, 612" href="Maldives.html" alt="Maldives" title="Maldives">
+        </map>
     </div>
 </body>
 </html>

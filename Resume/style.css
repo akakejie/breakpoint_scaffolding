@@ -144,22 +144,24 @@ a.active, a:hover {
 }
 
 /* Go Top Button */
+/* Go Top Button */
 .go-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #6c757d;
-    color: white;
+    color: #D3D9D4;
     text-decoration: none;
+    font-weight: bold;
+    background-color: #2E3944;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
-    text-align: center;
-    transition: background 0.3s;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .go-top:hover {
-    background-color: #5a6268;
+    background-color: #3A4754;
+    color: #00AEEF;
 }
 
 a:hover {
