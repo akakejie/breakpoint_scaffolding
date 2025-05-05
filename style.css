@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+@media (min-width: 576.98px) {
+    body {
+        background-color: rgb(8, 231, 175);
+    }
+    
+}
+
+@media (min-width: 767.98px) {
+    body {  
+        background-color: rgb(248, 4, 4);
+    }
+    
+}
+
+@media (min-width: 991.98px) {
+    body {
+        background-color: rgb(107, 236, 95);
+    }
+    
+}
+@media (min-width: 1199.98px) {
+    body {
+        background-color: rgb(255, 0, 221);
+    }
+    
+}
+@media (min-width: 1400px) {
+    body {
+        background-color: rgb(156, 27, 248);
+    }
+    
+}
